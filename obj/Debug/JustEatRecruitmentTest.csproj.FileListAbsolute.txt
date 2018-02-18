@@ -17,3 +17,13 @@ C:\Users\Kyle\Downloads\JustEatRecruitmentTest\JustEatRecruitmentTest\JustEatRec
 C:\Users\Kyle\Downloads\JustEatRecruitmentTest\JustEatRecruitmentTest\JustEatRecruitmentTest\obj\Debug\JustEatRecruitmentTest.csproj.CoreCompileInputs.cache
 C:\Users\Kyle\Downloads\JustEatRecruitmentTest\JustEatRecruitmentTest\JustEatRecruitmentTest\obj\Debug\JustEatRecruitmentTest.exe
 C:\Users\Kyle\Downloads\JustEatRecruitmentTest\JustEatRecruitmentTest\JustEatRecruitmentTest\obj\Debug\JustEatRecruitmentTest.pdb
+C:\Users\Kyle\Desktop\JustEatRecruitmentTest\JustEatRecruitmentTest\bin\Debug\JustEatRecruitmentTest.exe.config
+C:\Users\Kyle\Desktop\JustEatRecruitmentTest\JustEatRecruitmentTest\bin\Debug\JustEatRecruitmentTest.exe
+C:\Users\Kyle\Desktop\JustEatRecruitmentTest\JustEatRecruitmentTest\bin\Debug\JustEatRecruitmentTest.pdb
+C:\Users\Kyle\Desktop\JustEatRecruitmentTest\JustEatRecruitmentTest\bin\Debug\RestSharp.dll
+C:\Users\Kyle\Desktop\JustEatRecruitmentTest\JustEatRecruitmentTest\bin\Debug\System.ValueTuple.dll
+C:\Users\Kyle\Desktop\JustEatRecruitmentTest\JustEatRecruitmentTest\bin\Debug\System.ValueTuple.xml
+C:\Users\Kyle\Desktop\JustEatRecruitmentTest\JustEatRecruitmentTest\obj\Debug\JustEatRecruitmentTest.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\Desktop\JustEatRecruitmentTest\JustEatRecruitmentTest\obj\Debug\JustEatRecruitmentTest.csproj.CoreCompileInputs.cache
+C:\Users\Kyle\Desktop\JustEatRecruitmentTest\JustEatRecruitmentTest\obj\Debug\JustEatRecruitmentTest.exe
+C:\Users\Kyle\Desktop\JustEatRecruitmentTest\JustEatRecruitmentTest\obj\Debug\JustEatRecruitmentTest.pdb
