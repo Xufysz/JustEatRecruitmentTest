@@ -37,7 +37,6 @@ namespace JustEatRecruitmentTest
 
                 Console.Clear();
                 Tuple<bool, Restaurant[]> restaurants = JustEat.GetRestraunts(token, input);
-
                 //Check to see if restaurants were received correctly
                 if (!restaurants.Item1)
                     exit = true;
@@ -49,26 +48,32 @@ namespace JustEatRecruitmentTest
                     continue;
                 }
 
-                //Write output
-                foreach (Restaurant restaurant in restaurants.Item2)
-                {
-                    Console.WriteLine("Name: " + restaurant.Name);
-                    Console.WriteLine("Rating: " + restaurant.Score);
-
-                    Console.WriteLine("Food: ");
-                    foreach (CuisineTypes cType in restaurant.CuisineTypes)
-                    {
-                        Console.WriteLine(Environment.NewLine);
-                        Console.WriteLine("    ID: " + cType.ID);
-                        Console.WriteLine("    Name: " + cType.Name);
-                        Console.WriteLine("    SeoName: " + cType.SeoName);
-                    }
-                    Console.WriteLine(new string('-', Console.WindowWidth));
-                }
+                outputRestaurants(restaurants);
             }
 
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
+        }
+
+        private static void outputRestaurants(Tuple<bool, Restaurant[]> restaurants)
+        {
+
+            //Write output
+            foreach (Restaurant restaurant in restaurants.Item2)
+            {
+                Console.WriteLine("Name: " + restaurant.Name);
+                Console.WriteLine("Rating: " + restaurant.Score);
+
+                Console.WriteLine("Food: ");
+                foreach (CuisineTypes cType in restaurant.CuisineTypes)
+                {
+                    Console.WriteLine(Environment.NewLine);
+                    Console.WriteLine("    ID: " + cType.ID);
+                    Console.WriteLine("    Name: " + cType.Name);
+                    Console.WriteLine("    SeoName: " + cType.SeoName);
+                }
+                Console.WriteLine(new string('-', Console.WindowWidth));
+            }
         }
     }
 }
