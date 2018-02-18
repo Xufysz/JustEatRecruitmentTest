@@ -38,7 +38,7 @@ namespace JustEatRecruitmentTest
             request.AddParameter("q", outcode); 
             request.AddHeader("Accept-Tenant", "uk");
             request.AddHeader("Accept-Language", "en-GB");
-            request.AddHeader("Authorization", "JE-API-KEY ABCDE123456789");
+            request.AddHeader("Authorization", "{NEEDS UPDATED TOKEN}");
             request.AddHeader("Host", "public.je-apis.com");
 
             IRestResponse response = client.Execute(request);
