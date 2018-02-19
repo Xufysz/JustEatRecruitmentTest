@@ -1,4 +1,5 @@
-﻿using RestSharp;
+﻿using JustEatRecruitmentTest.JSON_Objects;
+using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.IO;

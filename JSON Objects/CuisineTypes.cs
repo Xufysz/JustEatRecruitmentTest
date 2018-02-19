@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JustEatRecruitmentTest
+namespace JustEatRecruitmentTest.JSON_Objects
 {
-    class Restaurant
+    class CuisineTypes
     {
+        public int ID { get; set; }
         public string Name { get; set; }
-        public double Score { get; set; }
-        public CuisineTypes[] CuisineTypes { get; set; }
+        public string SeoName { get; set; }
     }
 }

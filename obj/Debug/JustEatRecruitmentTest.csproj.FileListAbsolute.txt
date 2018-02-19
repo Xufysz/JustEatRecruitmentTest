@@ -36,3 +36,4 @@ C:\Users\Kyle\source\repos\JustEatRecruitmentTest\JustEatRecruitmentTest\obj\Deb
 C:\Users\Kyle\source\repos\JustEatRecruitmentTest\JustEatRecruitmentTest\obj\Debug\JustEatRecruitmentTest.pdb
 C:\Users\Kyle\source\repos\JustEatRecruitmentTest\JustEatRecruitmentTest\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Kyle\source\repos\JustEatRecruitmentTest\JustEatRecruitmentTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kyle\source\repos\JustEatRecruitmentTest\JustEatRecruitmentTest\obj\Debug\JustEatRecruitmentTest.csprojResolveAssemblyReference.cache

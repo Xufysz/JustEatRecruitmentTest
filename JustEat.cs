@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using JustEatRecruitmentTest.JSON_Objects;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using RestSharp;
 using System;
