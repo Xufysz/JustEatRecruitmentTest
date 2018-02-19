@@ -19,7 +19,7 @@ namespace JustEatRecruitmentTest
             //Get token
             Console.Write("Please enter token: ");
             string token = Console.ReadLine();
-            if (!JustEat.GetRestraunts(token, "se19").Item1)
+            if (!JustEat.GetRestaurants(token, "se19").Item1)
                 exit = true;
 
             //Loop
@@ -37,7 +37,7 @@ namespace JustEatRecruitmentTest
                 }
 
                 Console.Clear();
-                Tuple<bool, Restaurant[]> restaurants = JustEat.GetRestraunts(token, input);
+                Tuple<bool, Restaurant[]> restaurants = JustEat.GetRestaurants(token, input);
                 //Check to see if restaurants were received correctly
                 if (!restaurants.Item1)
                     exit = true;

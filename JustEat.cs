@@ -13,7 +13,7 @@ namespace JustEatRecruitmentTest
 {
     class JustEat
     {
-        public static Tuple<bool, Restaurant[]> GetRestraunts(string token, string outcode)
+        public static Tuple<bool, Restaurant[]> GetRestaurants(string token, string outcode)
         {
             //Get HTTP Request
             RestClient client = new RestClient("https://public.je-apis.com/");
